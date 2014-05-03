@@ -29,7 +29,7 @@ var descriptions = {
   10 : "Every resident is provided with 7 stackable drawers, 2 bookcases, a bed, a dresser, a desk, and a chair. These custom-designed pieces can be rearranged and combined in whatever configuration you like, using only a hex key. The possibilities are endless.",
   11 : "Although Simmons already has the largest rooms on campus, residents sometimes loft their furniture to make room for hammocks, sofas, and mini-fridges.",
   12 : "Check out the weird curvilinear wall in Lars's room! Such mystery. Much strange. Wow. (Actually, these are quite common.)",
-  13 : 'Problem sets, or "p-sets", is engineering parlance for weekly homework assignments. Collaboration is encouraged, and the spatious lounges and study rooms on every floor in Simmons are a great place to work on p-sets together.',
+  13 : 'Problem sets, or "p-sets", is engineering parlance for weekly homework assignments. Collaboration is encouraged, and the spacious lounges and study rooms on every floor in Simmons are a great place to work on p-sets together.',
   14 : "Express yourself with chalk on our curvy walls. Bonus points for knowing all 150 original Pokemon. (We are aware Piplup is 4th generation.)",
   15 : "Nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan nyan.",
   16 : 'Groups of ten or more friends can form social "lounges" and get sponsored by Simmons to do fun things, like ordering food, going on excursions, or buying ridiculous stuff. This is the Nyan Nyan lounge.',
@@ -47,7 +47,7 @@ var descriptions = {
   28 : "Yep. We still have a ballpit.",
   29 : "Navigating Simmons can be confusing: staircases don't go to all floors, and many floors aren't even continuous. Good luck trying to find the hallway shown in this shot!",
   30 : "Simmons has laundry rooms throughout the building. Each has two washers and two dryers whose availability can be checked online. When your shower isn't available, you can hop in a washer to take a quick bath.",
-  31 : "There are spatious lounges and study rooms on every floor. Lounges are equipped with large flat-screen televisions and game consoles.",
+  31 : "There are spacious lounges and study rooms on every floor. Lounges are equipped with large flat-screen televisions and game consoles.",
   32 : "An example of a grassroots proposal: Andrew wanted a telescope, so we bought one. Sunspots, Saturn, and rooms in MacGregor have never felt closer.",
   33 : "Depending on your definition of a microwave, we're pretty sure a janky, home-built mass spectrometer isn't explicitly forbidden in the Housing Agreement. ",
   34 : "GRTs regularly organize study breaks and/or large events with House funds. For example, Tim (and Tim!) recently cleared out the tables from the Dining Hall and held a week-long scooter hockey tournament.",
@@ -59,7 +59,7 @@ $(document).ready(function() {
   for (var i = 1; i < 37; i++) {
     $(".gallery").append('<div class="frame"><a href="img/i3_2014('+ i +').jpg" rel="facebox"><img src="img/i3_2014('+ i +').jpg"></a><span>' + descriptions[i] + '</span></div>');
   }
-    $('a[rel*=facebox]').facebox();
+  $('a[rel*=facebox]').facebox();
 });
 
 </script>
